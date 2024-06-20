@@ -13,7 +13,7 @@ browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.js
 server-->browser: main.js
 
 browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
-server-->browser: [{ content: "HTML is easy", date: "2019-05-23" }, ...]
+server-->browser: [{ content: "HTML is easy", date: "2024-06-20" }, ...]
 
 note over browser:
 browser executes the event handler
