@@ -1,0 +1,10 @@
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+note over server:
+server executes the javascript code
+that adds new element to database
+end note
+server-->browser: 201 Protocol
+note over browser:
+browser executes the event handler
+that renders notes to display
+end note
